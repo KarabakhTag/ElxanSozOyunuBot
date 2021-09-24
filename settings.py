@@ -1,4 +1,4 @@
 # TheOksigen
-TOKEN = "1962817192:AAGA-WUH2eWn2VVIXkULx8hbHZDsW047yz4"
-with open('words.txt', 'r', encoding='utf-8') as file:
+TOKEN = "1862890593:AAGXXyk3v1bVcg4bOtYXHzJKG2JhQZ_1NWk"
+with open('soz.txt', 'r', encoding='utf-8') as file:
     word_list = file.read().splitlines()
