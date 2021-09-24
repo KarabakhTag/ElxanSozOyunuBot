@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="" width="300" height="300">
+  <img src="https://telegra.ph/file/e56f39a1866c7d4b1b857.jpg" width="300" height="300">
   <h1>WordLookBot</h1>
 </div>
 <p align="center">
