@@ -73,8 +73,9 @@ def command_start(update, context: CallbackContext):
         addme = InlineKeyboardButton(text="🤴 Botu qruplarınıza əlavə edin!", url="https://t.me/WordLookBot?startgroup=a")
         sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/sohbet_Profesorlarr")
         oyun = InlineKeyboardButton(text="🗣️ Support", url="https://t.me/NeonSup")
+        oksi = InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/TheOksigen")
 
-        keyboard = [[addme],[sohbet],[oyun]]
+        keyboard = [[addme],[sohbet],[oyun][oksi]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text('şəxsi söhbətlərdə oyun oynana bilməsi üçün yaradılmışam.', reply_to_message_id=True, reply_markup=reply_markup)
     else:
