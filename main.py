@@ -74,7 +74,7 @@ def command_start(update, context: CallbackContext):
         sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/sohbet_Profesorlarr")
         oyun = InlineKeyboardButton(text="🗣️ Support", url="https://t.me/NeonSup")
 
-        keyboard = [[addme],[sohbet],[oyun],[admin]]
+        keyboard = [[addme],[sohbet],[oyun]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text('şəxsi söhbətlərdə oyun oynana bilməsi üçün yaradılmışam.', reply_to_message_id=True, reply_markup=reply_markup)
     else:
