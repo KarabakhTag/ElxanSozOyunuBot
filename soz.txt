@@ -425,10 +425,10 @@ dərəcə
 enter
 formula
 Kimya
-diplom
-zal
-ayaq
-barmaq
+Diplom
+Zal
+Ayaq
+Barmaq
 Hin
 Cem
 Əzgil
@@ -436,14 +436,14 @@ Tarqovu
 Çayçı
 samovar
 Börək
-vağzal
+Vağzal
 Şərab
 göyəm
 Kompot
-vağzalı
-baca
-vahə
-vahid
+Vağzalı
+Baca
+Bahə
+Vahid
 Molla Pənah Vaqif
 Vayxır
 Badamlı
