@@ -1,4 +1,4 @@
-#TheOksigen
+#TheElxan
 
 
 
@@ -70,10 +70,10 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🤴 Botu qruplarınıza əlavə edin!", url="https://t.me/WordLookBot?startgroup=a")
-        sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/sohbetPR")
-        oyun = InlineKeyboardButton(text="🗣️ Support", url="https://t.me/NeonSup")
-        oksi = InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/TheOksigen")
+        addme = InlineKeyboardButton(text="🤴 Botu qruplarınıza əlavə edin!", url="https://t.me/ElxanSozOyunuBot?startgroup=a")
+        sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/muellime")
+        oyun = InlineKeyboardButton(text="🗣️ Support", url="https://t.me/muellime")
+        oksi = InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/muellime")
 
         keyboard = [[addme],[sohbet],[oyun],[oksi]]
         reply_markup = InlineKeyboardMarkup(keyboard)
