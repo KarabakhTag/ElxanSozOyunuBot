@@ -1,3 +1,9 @@
+### 🚀 Deploy to heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/KarabakhTag/sjsjsn)
+
+
+
 <div align="center">
   <img src="https://telegra.ph/file/e56f39a1866c7d4b1b857.jpg" width="300" height="300">
   <h1>WordLookBot</h1>
