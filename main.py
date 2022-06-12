@@ -43,7 +43,7 @@ def setup_logger():
 def help(update, context):
     update.message.reply_text('Mövcud əmrlər:\n' +
                               '/start - Oyunu başladır\n' +
-                              '/master - Oyunda aparıcı olmaq istəyirsinizsə yazın\n' +
+                              '/game - Oyunda aparıcı olmaq istəyirsinizsə yazın\n' +
                               '/rating - Qrup üzrə reytinqi görsədir', reply_to_message_id=True)
 
 
@@ -70,10 +70,10 @@ def button(update, context):
 def command_start(update, context: CallbackContext):
     if update.effective_chat.type == "private":
         
-        addme = InlineKeyboardButton(text="🤴 Botu qruplarınıza əlavə edin!", url="https://t.me/ElxanSozOyunuBot?startgroup=a")
-        sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/muellime")
+        addme = InlineKeyboardButton(text="🤴 Botu qruplarınıza əlavə edin!", url="https://t.me/CrocodilAzeBot?startgroup=a")
+        sohbet = InlineKeyboardButton(text="👥 Oyun Qrupumuz", url="https://t.me/Azeqafqaz2011")
         oyun = InlineKeyboardButton(text="🗣️ Support", url="https://t.me/muellime")
-        oksi = InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/muellime")
+        oksi = InlineKeyboardButton(text="👨‍💻 Owner", url="https://t.me/thagiyevvvv")
 
         keyboard = [[addme],[sohbet],[oyun],[oksi]]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -131,7 +131,7 @@ def command_master(update: Update, context):
                                   reply_to_message_id=True)
         return
 
-    logger.info('Got command /master,'
+    logger.info('Got command /game,'
                 'chat_id={},'
                 'user="{}"({}),'
                 'timedelta={}'.format(chat_id,
@@ -238,7 +238,7 @@ def main():
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", command_start))
-    dp.add_handler(CommandHandler("master", command_master))
+    dp.add_handler(CommandHandler("game", command_master))
     dp.add_handler(CommandHandler("show_word", command_show_word))
     dp.add_handler(CommandHandler("change_word", command_change_word))
     dp.add_handler(CommandHandler("rating", command_rating))
